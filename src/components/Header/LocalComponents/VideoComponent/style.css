@@ -1,0 +1,27 @@
+.video-wrapper {
+	position: relative;
+	width: 100%;
+}
+
+.video {
+	z-index: -1;
+	display: block;
+	width: 100%;
+}
+
+.btn-mute {
+	font-size: 17px;
+	position: absolute;
+	right: 5%;
+	bottom: 5%;
+	border: 1px solid black;
+	outline: none;
+	background-color: #a20520;
+	color: white;
+	padding: 10px;
+}
+
+.btn-mute:hover {
+	background-color: white;
+	color: black;
+}

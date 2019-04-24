@@ -1,0 +1,45 @@
+.visible-buy {
+	display: block;
+	color: black;
+	background-color:  #e31138;
+	position: absolute;
+	top: 100%;
+	left: 60%;
+	width: 30%;
+	z-index: 99;
+	text-align: center;
+	padding: 30px;
+}
+
+.visible-buy-wrapper {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 99;
+	background-color: rgba(0, 0, 0, .5)
+}
+
+.h3 {
+	font-size: 30px;
+	margin: 0;
+}
+
+.h4 {
+	font-size: 25px;
+}
+
+.btn-modal {
+	margin: 5px;
+	padding: 5px 25px;
+	background-color: black;
+	color: white;
+	border: 0;
+	cursor: pointer;
+}
+
+.unvisible-buy, 
+.unvisible-buy-wrapper {
+	display: none;
+}

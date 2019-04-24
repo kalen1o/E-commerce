@@ -1,0 +1,25 @@
+.h3 {
+	font-size: 30px;
+	margin: 0;
+}
+
+label {
+	display: block;
+	margin-bottom: 20px;
+}
+
+.input-modal {
+	border: none;
+	border-bottom: 1px solid black;
+	outline: none;
+	margin-left: 5px;
+}
+
+.btn-modal {
+	margin: 5px;
+	padding: 5px 25px;
+	background-color: black;
+	color: white;
+	border: 0;
+	cursor: pointer;
+}

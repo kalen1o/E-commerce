@@ -1,0 +1,23 @@
+.header {
+	position: relative	;
+	max-height: 70px;
+	background-color: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+
+.fixed-header {
+	position: fixed;
+	top: 0;
+}
+
+.flex-box {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 15px;
+	border: 1px solid black;
+	margin: 5px 0;
+}

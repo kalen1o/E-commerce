@@ -1,0 +1,10 @@
+.footer {	
+	text-align: center;
+	background-color: black;
+}
+
+.footer-icon {
+	font-size: 25px;
+	color: white;
+	margin: 5px 10px 0;
+}

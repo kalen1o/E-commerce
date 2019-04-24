@@ -1,0 +1,42 @@
+.settings-wrapper {
+	width: 100%;
+	max-width: 300px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.h5 {
+	font-size: 30px;
+	color: black;
+}
+
+.input-settings, .input-settings-disabled {
+	border: 1px solid gray;
+	outline: none;
+	padding: 5px;
+	width: 75%;
+}
+
+.input-settings-disabled {
+	width: calc(100% - 10px);
+	margin: 0 5px;
+}
+
+.input-settings:disabled, .input-settings-disabled:disabled {
+	background-color: gray;
+	color: white;
+}
+
+.btn-change, .btn-save {
+	margin-left: 5px;
+	background-color: black;
+	color: white;
+	border: 1px solid black;
+	outline: none;	
+	padding: 5px;
+}
+
+.btn-save {
+	margin: 0 auto 20px;
+	background-color: #a20520;
+}

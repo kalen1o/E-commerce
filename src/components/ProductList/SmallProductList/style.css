@@ -1,0 +1,20 @@
+.flex-product {
+	min-height: 250px;
+	background-color: #e31138;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.product-wrapper {
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	margin: 50px;
+}
+
+.h1 {
+	font-size: 16px;
+	color: white;
+	margin: 0;	
+}

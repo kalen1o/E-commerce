@@ -1,0 +1,13 @@
+.auth-btn:hover {
+	color: white;
+}
+
+.auth-btn {
+	font-size: 25px;
+	color: black;
+	background-color: gray;
+	min-height: 70px;
+	border: none;
+	outline: none;
+	padding: 0 15px;
+}

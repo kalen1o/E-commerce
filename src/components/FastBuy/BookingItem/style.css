@@ -1,0 +1,50 @@
+.fast-buy-booking-wrapper {
+	width: 50%;
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-start;
+	flex-wrap: wrap;
+}
+
+.booking-item-wrapper {
+	background-color: black;
+	color: white;
+	width: 100%;
+	max-width: 200px;
+	padding: 10px;
+}
+
+.booking-img-wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	min-height: 150px;
+	border: 1px solid white;
+}
+
+.flex-booking {
+	margin: 5px 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+.booking-block-wrapper {
+	display: inline-block;
+	width: calc(70% - 2.5px);
+	vertical-align: middle;
+	border: 1px solid white;
+}
+
+.booking-block-wrapper:first-child {
+	width: calc(30% - 2.5px);
+}
+
+.btn-booking {
+	background-color: #e31138;
+	width: 100%;
+	border: none;
+	outline: none;
+	padding: 5px;
+	font-weight: 700;
+}

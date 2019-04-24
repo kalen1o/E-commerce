@@ -1,0 +1,43 @@
+.form-wrapper {
+	max-width: 300px;
+	margin: 0 auto;
+}
+
+.h3 {
+	font-size: 30px;
+	margin: 0;
+	background-color: transparent;
+	color: black;
+	padding: 0;
+}
+
+label {
+	display: block;
+	margin-bottom: 20px;
+}
+
+.label-wrapper {
+	display: block;
+	text-align: left;
+	margin-bottom: 5px;
+	padding: 0 5px;
+}
+
+.input-modal {
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 10px;
+	outline: none;
+	margin-left: 5px;
+	width: calc(100% - 5px);
+	max-width: 300px;
+}
+
+.btn-modal {
+	margin: 5px;
+	padding: 5px 25px;
+	background-color: black;
+	color: white;
+	border: 0;
+	cursor: pointer;
+}
